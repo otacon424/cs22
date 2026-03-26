@@ -1,0 +1,24 @@
+# --- IntelliJ IDEA ---
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# --- Build Outputs ---
+out/
+target/
+bin/
+build/
+
+# --- Compiled files ---
+*.class
+*.exe
+*.dll
+*.so
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- Log files ---
+*.log
