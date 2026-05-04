@@ -1,8 +1,5 @@
 package chapter6;
 
-<<<<<<< Updated upstream
-public class exercise2 {
-=======
 import java.util.Queue;
 import java.util.LinkedList;
 
@@ -26,5 +23,4 @@ public class exercise2 {
         q.add(7);
         System.out.println(q.peek());
     }
->>>>>>> Stashed changes
 }

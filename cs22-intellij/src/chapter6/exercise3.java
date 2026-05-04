@@ -1,9 +1,8 @@
 package chapter6;
 
-<<<<<<< Updated upstream
-public class exercise3 {
-=======
 import java.util.*;
+
+
 
 public class exercise3 {
     public static void main(String[] args)
@@ -23,5 +22,5 @@ public class exercise3 {
         System.out.println(s.pop());
         System.out.println(s.pop());
     }
->>>>>>> Stashed changes
-}
+}//end exercise3
+
