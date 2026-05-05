@@ -1,8 +1,7 @@
 package chapter6;
 
-<<<<<<< Updated upstream
 import java.util.ArrayList;
-
+import java.util.*;
 //Node structure
 class Node {
     char data;
@@ -19,17 +18,6 @@ class Node {
 
 public class exercise1 {
 
-
-    public static void main(String[] args)
-    {
-
-=======
-import java.util.*;
-
-
-
-public class exercise1 {
-
     public static void main(String[] args)
     {
         Stack<String> s = new Stack<String>();
@@ -43,6 +31,5 @@ public class exercise1 {
             q.add(s.pop());
         }
         System.out.println(q);
->>>>>>> Stashed changes
     }
 }

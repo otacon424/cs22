@@ -1,6 +1,5 @@
 package chapter6;
 
-<<<<<<< Updated upstream
 import java.util.*;
 
 public class exercise4 {
@@ -87,74 +86,3 @@ public class exercise4 {
         }while(choice != 5);
     } //end main
 }
-=======
-import java.util.Queue;
-import java.util.Stack;
-
-public class exercise4 {
-
-
-    public static void displayMenu() {
-        System.out.println("Exercise 4");
-        System.out.println("1) Queue 1");
-        System.out.println("2) Queue 2");
-        System.out.println("3) Queue 3");
-        System.out.println("4) Exit");
-    }
-
-    public static void mystery2(Queue<Integer> q) {
-        Stack<Integer> s = new Stack<Integer>();
-        int size = q.size();
-        for (int i = 0; i < size; i++) {
-            int n = q.remove();
-            if (n % 2 == 0) {
-                s.push(n);
-            } else {
-                q.add(n);
-            }
-        }
-        System.out.println(q + " " + s);
-    }
-
-    public static void main(String[] args) {
-        Stack<Integer> s = new Stack<Integer>();
-
-        //Stack 1
-        // [1, 2, 3, 4, 5, 6]
-        Stack<Integer> s1 = new Stack<Integer>(1, 2, 3, 4, 5, 6);
-
-        //Stack 2
-        //[42, -3, 4, 15, 9, 71]
-        Stack<Integer> s2 = new Stack<Integer>(42, -3, 4, 15, 9, 71);
-
-        //Stack 3
-        //[30, 20, 10, 60, 50, 40, 3, 0]
-        Stack<Integer> s3 = new Stack<Integer>(30, 20, 10, 60, 50, 40, 3, 0);
-
-        //Queue 1
-        // [1,2,3,4,5,6]
-        Queue<Integer> q1 = new Queue<Integer>(1, 2, 3, 4, 5, 6);
-        //Queue 2
-        // [42, -3, 4, 15, 9, 71]
-        Queue<Integer> q2 = new Queue<Integer>(42, -3, 4, 15, 9, 71);
-        //Queue 3
-        // [30, 20, 10, 60, 50, 40, 3, 0]
-        Queue<Integer> q3 = new Queue<Integer>(30, 20, 10, 60, 50, 40, 3, 0);
-        
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> Stashed changes
